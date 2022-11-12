@@ -1,0 +1,128 @@
+img{
+width:500px;
+    
+}
+
+body{
+background-color:chartreuse;
+font-size:60px;
+margin: 0px;
+
+}
+
+.godzilla{
+border-radius: 20px;
+
+
+}
+
+.shin{
+
+    border-radius: 20px;
+}
+
+.KONG{
+
+    border-radius: 20px;
+}
+
+.muto{
+
+    border-radius: 20px;
+}
+
+.bigbird{
+
+    border-radius: 20px;
+}
+
+.heading {
+    text-align: center;
+    background-color: blue;
+    padding: 10px
+}
+
+.heading h1 {
+    margin: 0px;
+}
+
+.coolboi:hover {
+    background-color: black;
+    color: white;
+}
+
+.aaaaaaaaayo:hover {
+background-color: black;
+color: white
+}
+
+.wiki{
+background-color: blue;
+color:white;
+animation: wiggle 2s linear infinite
+}
+
+@keyframes wiggle{
+0%,7%{
+    transform: rotateZ(0)
+}
+15%{
+    transform: rotateZ(-15deg)
+}
+20%{
+    transform: rotateZ(10deg)
+}
+25%{
+    transform: rotateZ(-10deg)
+}
+30%{
+    transform: rotateZ(6deg)
+}
+35%{
+    transform: rotateZ(-4deg)
+}
+40%,100%{
+    transform: rotateZ(0);
+}
+
+}
+
+.wiki:hover{
+    background-color: aqua;
+    color:black;
+}
+
+.wiki{
+    width: 400px;
+    height: 400px;
+    font-size: 40px;
+}
+
+.wikiBox{
+    display: flex;
+    justify-content: center;
+}
+
+.ml:hover{
+background-color: black;
+color: white
+}
+
+.hr:hover{
+background-color: black;
+color: white;
+}
+
+.wordSmall{
+    font-size: 20px;
+}
+
+.ji:hover{
+background-color: black;
+color: white;
+}
+
+.hl:hover{
+    background-color: black;
+    color: white;
+}
